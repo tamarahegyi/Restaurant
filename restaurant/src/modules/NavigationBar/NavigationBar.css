@@ -52,3 +52,8 @@ li {
   width: 95%;
   gap: 50px;
 }
+.button_section{
+    display: flex;
+    gap:20px;
+}
+

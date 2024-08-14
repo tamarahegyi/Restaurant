@@ -8,3 +8,17 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+button{
+  font-size: 1.3rem;
+  border: solid brown 1px;
+  border-radius: 2rem;
+  background-color: antiquewhite;
+  padding:15px 20px;
+  color:brown
+}
+button:hover{
+  background-color: rgba(194, 111, 111, 0.553);
+  color:aliceblue;
+  transition: all ease-in 200ms;
+  cursor: pointer;
+}

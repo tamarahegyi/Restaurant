@@ -1,13 +1,13 @@
 import React from "react";
 import "./NavigationBar.css";
 
-function LandingPage() {
+function NavigationBar() {
   return (
     <>
       <div className="navigation_bar">
         <nav className="nav">
           <ul className="navbar_items">
-            <a href="home">
+            <a href="landingPage">
               <li className="home" id="home">
                 Home
               </li>
@@ -27,6 +27,10 @@ function LandingPage() {
                 About us
               </li>
             </a>
+            <div className="button_section">
+            <a href="login"><button type="button" className="login" >Login</button></a>
+            <a href="login"><button type="button" className="signup" >Sign up</button></a>
+            </div>
           </ul>
         </nav>
       </div>
@@ -34,4 +38,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default NavigationBar;
