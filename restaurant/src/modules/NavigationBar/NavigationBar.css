@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&display=swap");
+
+body {
+  margin: 0;
+  background-color: antiquewhite;
+  padding: 0;
+  overflow: hidden;
+}
+.home,
+.booking,
+.contact,
+.about {
+  color: brown;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  color: brown;
+}
+.home:hover,
+.booking:hover,
+.contact:hover,
+.about:hover {
+  color: rgb(194, 111, 111);
+}
+.home:active {
+  color: rgb(229, 202, 202);
+}
+.booking:active {
+  color: rgb(229, 202, 202);
+}
+.contact:active {
+  color: rgb(229, 202, 202);
+}
+.about:active {
+  color: rgb(229, 202, 202);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar_items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+  width: 95%;
+  gap: 50px;
+}
