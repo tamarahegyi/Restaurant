@@ -2,37 +2,35 @@
 
 body {
   margin: 0;
-  background-color: antiquewhite;
   padding: 0;
-  overflow: hidden;
 }
 .home,
 .booking,
 .contact,
 .about {
-  color: brown;
+  color: #ae780c;
   font-size: 1.5rem;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
-  color: brown;
+  font-weight: 200;
 }
 .home:hover,
 .booking:hover,
 .contact:hover,
 .about:hover {
-  color: rgb(194, 111, 111);
+  color: #6F5F32;
 }
 .home:active {
-  color: rgb(229, 202, 202);
+  color: #9a927c;
 }
 .booking:active {
-  color: rgb(229, 202, 202);
+  color: #9a927c;
 }
 .contact:active {
-  color: rgb(229, 202, 202);
+  color: #9a927c;
 }
 .about:active {
-  color: rgb(229, 202, 202);
+  color: #9a927c;
 }
 
 a {

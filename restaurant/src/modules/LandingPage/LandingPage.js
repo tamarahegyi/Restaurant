@@ -1,15 +1,22 @@
-import React from 'react'
-
+import React from "react";
+import './LandingPage.css';
+import Carousel from "./Carousel";
 
 function LandingPage() {
   return (
-    <div>
-      <h1>So great to see you again</h1>
-      <h2>Or is it your first time?</h2>
-      <button>Read about our history</button>
-      <button>Book a table</button>
+    <section className="landingpage-section">
+    <div className="main-message">
+      <div className="landingpage-section">
+        <h1>So great to see you</h1>
+      </div>
+      <div className="landingpage-buttons">
+        <button className="read-our-history">Read about our history</button>
+        <button className="book-table-landing">Book a table</button>
+      </div>
+      <Carousel/>
     </div>
-  )
+    </section>
+  );
 }
 
-export default LandingPage
+export default LandingPage;

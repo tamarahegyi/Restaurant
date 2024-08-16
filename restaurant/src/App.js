@@ -8,6 +8,7 @@ function App() {
 <BrowserRouter>
 <NavigationBar/>
 <Routes>
+  <Route path="/" element={<LandingPage/>}/>
   <Route path="landingPage" element={<LandingPage/>}/>
 </Routes>
 </BrowserRouter>
