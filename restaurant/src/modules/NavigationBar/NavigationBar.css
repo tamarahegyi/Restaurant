@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&display=swap');
 
 body {
   margin: 0;
@@ -53,5 +53,10 @@ li {
 .button_section{
     display: flex;
     gap:20px;
+    align-items:end;
+}
+.login,
+.signup{
+  padding:5px 20px;
 }
 

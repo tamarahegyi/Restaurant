@@ -28,7 +28,7 @@ function carousel() {
         </div>
       <Slider  className="photos">
         <Slide index={0}>
-          <img src={Myimage} className="photo1" alt="spain" />
+          <img src={Myimage6} className="photo1" alt="spain" />
         </Slide>
         <Slide index={1}>
           <img src={Myimage2} className="photo1"alt="spain" />
@@ -37,7 +37,7 @@ function carousel() {
           <img src={Myimage3}className="photo1" alt="spain" />
         </Slide>
         <Slide index={5}>
-          <img src={Myimage6} className="photo1" alt="spain" />
+          <img src={Myimage} className="photo1" alt="spain" />
         </Slide>
       </Slider>
       </div>
