@@ -7,7 +7,7 @@ function NavigationBar() {
       <div className="navigation_bar">
         <nav className="nav">
           <ul className="navbar_items">
-            <a href="landingPage">
+            <a href="/landingPage">
               <li className="home" id="home">
                 Home
               </li>
@@ -17,12 +17,12 @@ function NavigationBar() {
                 Book your table
               </li>
             </a>
-            <a href="contact">
+            <a href="/ContactUs">
               <li className="contact" id="contact">
                 Contact us
               </li>
             </a>
-            <a href="about">
+            <a href="/aboutUs">
               <li className="about" id="about">
                 About us
               </li>
