@@ -20,6 +20,9 @@ body {
   background-color: #e9d8c5;
   color:#ae780c;
 }
+img{
+  border-radius: 10px;
+}
 
 button{
   font-size: 1.3rem;

@@ -5,6 +5,7 @@ import LandingPage from './modules/LandingPage/LandingPage.js';
 import AboutUs from './modules/AboutUs/AboutUs.js';
 import ContactUs from './modules/ContactUs/ContactUs.js';
 import SignUp from './modules/SignUp/SignUp.js';
+import Login from './modules/Login/Login.js';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   <Route path="/aboutUs" element={<AboutUs/>}/>
   <Route path="/ContactUs" element={<ContactUs/>}/>
   <Route path="/SignUp" element={<SignUp/>}/>
+  <Route path="/Login" element={<Login/>}/>
 </Routes>
 </BrowserRouter>
   );
