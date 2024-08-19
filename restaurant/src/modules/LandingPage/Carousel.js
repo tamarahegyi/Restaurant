@@ -15,33 +15,34 @@ import "./LandingPage.css";
 function carousel() {
   return (
     <div className="carousel-container">
-    <CarouselProvider
-      naturalSlideWidth={100}
-      naturalSlideHeight={120}
-      totalSlides={4}
-      visibleSlides={1}
-    >
+      <CarouselProvider
+        infinite
+        naturalSlideWidth={100}
+        naturalSlideHeight={120}
+        totalSlides={4}
+        visibleSlides={1}
+      >
         <div className="carousel">
-        <div className="back-next-button">
-        <ButtonBack className="back-button-carousel">Back</ButtonBack>
-        <ButtonNext className="next-button-carousel">Next</ButtonNext>
+          <div className="back-next-button">
+            <ButtonBack className="back-button-carousel">Back</ButtonBack>
+            <ButtonNext className="next-button-carousel">Next</ButtonNext>
+          </div>
+          <Slider className="photos">
+            <Slide index={0}>
+              <img src={Myimage6} className="photo1" alt="spain" />
+            </Slide>
+            <Slide index={1}>
+              <img src={Myimage2} className="photo1" alt="spain" />
+            </Slide>
+            <Slide index={2}>
+              <img src={Myimage3} className="photo1" alt="spain" />
+            </Slide>
+            <Slide index={5}>
+              <img src={Myimage} className="photo1" alt="spain" />
+            </Slide>
+          </Slider>
         </div>
-      <Slider  className="photos">
-        <Slide index={0}>
-          <img src={Myimage6} className="photo1" alt="spain" />
-        </Slide>
-        <Slide index={1}>
-          <img src={Myimage2} className="photo1"alt="spain" />
-        </Slide>
-        <Slide index={2}>
-          <img src={Myimage3}className="photo1" alt="spain" />
-        </Slide>
-        <Slide index={5}>
-          <img src={Myimage} className="photo1" alt="spain" />
-        </Slide>
-      </Slider>
-      </div>
-    </CarouselProvider>
+      </CarouselProvider>
     </div>
   );
 }

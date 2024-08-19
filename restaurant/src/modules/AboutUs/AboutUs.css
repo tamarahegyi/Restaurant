@@ -1,3 +1,116 @@
-h1{
-    color:black;
+/*main message and video settings*/
+
+.about-us-meet{
+    color:#5B804E;
+    margin:50px 0px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.about-us-video{
+    height: 600px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.this-is-us{
+    position: absolute;
+    bottom:5px;
+    left:300px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-bottom: solid;
+    border-left:solid;
+    padding:10px;
+
+}
+
+/* section1 settings*/
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    gap:60px;
+}
+.about-us1{
+    width:80%;
+    margin:80px 100px 100px;
+    font-size: 1.5rem;
+}
+.about-us-photo1{
+    position: relative;
+    height: 500px;
+    width:600px;
+    margin-top: 50px;
+}
+/*
+.arrow{
+    position: absolute;
+    width:40px;
+    height:40px;
+    top:900px;
+    left:629px;
+    transform:rotate(45deg);
+    border-top: solid #5B804E;
+    border-right:solid #5B804E;
+    background-color: rgba(255,255,255,0);
+}*/
+
+/*section2 setting*/
+.section2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:50px;
+    gap:20px;
+}
+.about-us2{
+    width:50%;
+    margin:70px 80px 100px;
+    font-size: 1.5rem;
+}
+.about-us-photo2{
+    position: relative;
+    height: 500px;
+    width:600px;
+    margin-right:20px;
+}
+/*section 3 settings*/
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    gap:20px;
+}
+.about-us3{
+    width:50%;
+    margin:70px 80px 100px;
+    font-size: 1.5rem;
+}
+.about-us-photo3{
+    position: relative;
+    height: 500px;
+    width:700px;
+    margin-right:20px;
+}
+
+/*section 4 settings*/
+.section4{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:50px;
+    gap:20px;
+}
+.about-us4{
+    width:50%;
+    margin:70px 80px 100px;
+    font-size: 1.5rem;
+}
+.about-us-photo4{
+    position: relative;
+    height: 500px;
+    width:600px;
+    margin-right:20px;
 }

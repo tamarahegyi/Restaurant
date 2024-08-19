@@ -5,7 +5,7 @@
     padding:0;
 }
 
-h1{
+.contact-main{
     color:#ae780c;
     font-size: 4rem;
     margin-bottom: 10px;
@@ -43,7 +43,7 @@ margin-top:50px;
 }
 .company-email,
 .company-base{
-    color:#506254;
+    color:#5B804E;
 }
 
 /* input detail section*/
@@ -77,7 +77,7 @@ textarea{
 /*image section*/
 
 img{
-    width: 550px;
+    width: 570px;
     height: 550px;
     border-radius: 20px;
     margin-top:20px;
