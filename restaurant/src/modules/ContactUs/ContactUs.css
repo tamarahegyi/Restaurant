@@ -55,7 +55,9 @@ margin-top:50px;
 
 }
 
-input{
+.name-input,
+.email-input,
+.message-input{
     border:none;
     border-bottom: solid #ae780c;
     background-color: #e9d8c5;

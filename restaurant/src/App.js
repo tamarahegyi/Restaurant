@@ -4,6 +4,7 @@ import NavigationBar from './modules/NavigationBar/NavigationBar.js';
 import LandingPage from './modules/LandingPage/LandingPage.js';
 import AboutUs from './modules/AboutUs/AboutUs.js';
 import ContactUs from './modules/ContactUs/ContactUs.js';
+import SignUp from './modules/SignUp/SignUp.js';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   <Route path="/landingPage" element={<LandingPage/>}/>
   <Route path="/aboutUs" element={<AboutUs/>}/>
   <Route path="/ContactUs" element={<ContactUs/>}/>
+  <Route path="/SignUp" element={<SignUp/>}/>
 </Routes>
 </BrowserRouter>
   );

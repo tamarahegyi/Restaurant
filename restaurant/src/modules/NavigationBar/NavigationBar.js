@@ -29,7 +29,7 @@ function NavigationBar() {
             </a>
             <div className="button_section">
             <a href="login"><button type="button" className="login" >Login</button></a>
-            <a href="login"><button type="button" className="signup" >Sign up</button></a>
+            <a href="./SignUp"><button type="button" className="signup" >Sign up</button></a>
             </div>
           </ul>
         </nav>
