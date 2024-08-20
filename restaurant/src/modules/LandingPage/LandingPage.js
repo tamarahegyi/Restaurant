@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 import Carousel from "./Carousel";
+import './LandingQueries.css'
 
 function LandingPage() {
   return (
@@ -10,8 +11,8 @@ function LandingPage() {
           <h1 className="welcome-message">So great to see you</h1>
         </div>
         <div className="landingpage-buttons">
-          <button className="read-our-history">Read about our history</button>
-          <button className="book-table-landing">Book a table</button>
+          <a href="/aboutUs"><button className="read-our-history">Read about our history</button></a>
+          <a href="/booking"><button className="book-table-landing">Book a table</button></a>
         </div>
         <Carousel />
       </div>
